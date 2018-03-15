@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "strict": true,
+    "strict": false,
     "jsx": "react",
-    "jsxFactory": "h"
+    "jsxFactory": "h",
+    "lib": [
+      "dom",
+      "esnext"
+    ]
   }
 }
